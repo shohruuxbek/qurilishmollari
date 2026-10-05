@@ -1,0 +1,29 @@
+# Kutubxonalar
+node_modules/
+
+# Parol va maxfiy sozlamalar
+.env
+.env.*
+!.env.example
+
+# Loglar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Muharrir sozlamalari
+.vscode/
+.idea/
+
+# Vaqtinchalik fayllar
+*.tmp
+*.zip
+dist/
+coverage/
